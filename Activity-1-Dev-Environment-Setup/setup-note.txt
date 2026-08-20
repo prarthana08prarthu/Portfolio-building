@@ -1,0 +1,7 @@
+I installed Visual Studio Code and configured the Microsoft C/C++ extension for C programming.
+I installed the GCC compiler through MSYS2 and verified that GCC and G++ were working correctly.
+I faced an issue where GCC was not recognized in the terminal because the compiler path was not configured correctly.
+I resolved the issue by adding C:\msys64\ucrt64\bin to the Windows PATH environment variable.
+After reopening the terminal, gcc --version and g++ --version displayed the compiler versions successfully.
+I created a hello.c program, compiled it using GCC, and executed it successfully.
+The terminal displayed Hello, World!, confirming that my C development environment was working correctly.
