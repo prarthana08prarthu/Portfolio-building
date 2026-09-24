@@ -10,7 +10,7 @@ This file tracks my LeetCode practice progress throughout the semester.
 
 |---|---|---|---|---|---|
 
-| 23/09/2026 | Two Sum | Arrays \& Strings | Easy | ✅ Solved | 10 min |
+| 24/09/2026 | Two Sum | Arrays & Strings | Easy | ✅ Solved | -- |
 
 | 23/09/2026 | Reverse String | Arrays \& Strings | Easy | ⬜ Pending | — |
 
