@@ -29,7 +29,7 @@ All eight required problems have been documented and submitted successfully on L
 | Contains Duplicate | Arrays & Strings | Solved |
 | Maximum Subarray   | Arrays & Strings | Solved |
 | Merge Sorted Array | Arrays & Strings | Solved |
-
+| Reverse Linked List | Linked Lists | Bonus Solved |
 ## Future Practice
 
 Additional LeetCode problems will be added here as I continue practicing during the semester.

@@ -40,7 +40,7 @@ This repository contains my solutions to the Activity 4 problem set, written in 
 
 ### Linked Lists
 
-The `linked-lists/` folder is retained as part of the required repository structure. Reverse Linked List is listed as a bonus problem in the activity and has not been included in the required eight.
+- [Reverse Linked List (Bonus)](./linked-lists/09-reverse-linked-list.c)
 
 ## Additional Practice
 
@@ -50,6 +50,7 @@ The following problems were also completed as extra LeetCode practice:
 * [Contains Duplicate](./arrays-strings/06-contains-duplicate.c)
 * [Maximum Subarray](./arrays-strings/07-maximum-subarray.c)
 * [Merge Sorted Array](./arrays-strings/08-merge-sorted-array.c)
+- [Reverse Linked List (Bonus)](./linked-lists/09-reverse-linked-list.c)
 
 These additional problems are separate from the required Activity 4 set.
 
