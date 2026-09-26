@@ -1,11 +1,16 @@
-#include <stdio.h>
+﻿#include <stdio.h>
+#include <stdlib.h>
+
+int compare(const void *a, const void *b) {
+    return (*(int *)a - *(int *)b);
+}
 
 int containsDuplicate(int nums[], int size) {
-    for (int i = 0; i < size; i++) {
-        for (int j = i + 1; j < size; j++) {
-            if (nums[i] == nums[j]) {
-                return 1;
-            }
+    qsort(nums, size, sizeof(int), compare);
+
+    for (int i = 1; i < size; i++) {
+        if (nums[i] == nums[i - 1]) {
+            return 1;
         }
     }
 
