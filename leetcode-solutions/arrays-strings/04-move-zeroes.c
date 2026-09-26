@@ -1,46 +1,29 @@
-#include <stdio.h>
-
-void moveZeroes(int nums[], int size) {
-    int position = 0;
-
-    // Move all non-zero elements to the front
-    for (int i = 0; i < size; i++) {
-        if (nums[i] != 0) {
-            nums[position] = nums[i];
-            position++;
-        }
-    }
-
-    // Fill the remaining positions with zero
-    while (position < size) {
-        nums[position] = 0;
-        position++;
-    }
-}
-
-void printArray(int nums[], int size) {
-    printf("[");
-    for (int i = 0; i < size; i++) {
-        printf("%d", nums[i]);
-        if (i < size - 1) {
-            printf(", ");
-        }
-    }
-    printf("]\n");
-}
-
 int main() {
-    int nums[] = {0, 1, 0, 3, 12};
-    int size = sizeof(nums) / sizeof(nums[0]);
+    // Test Case 1 - Typical case
+    int nums1[] = {0, 1, 0, 3, 12};
+    int size1 = sizeof(nums1) / sizeof(nums1[0]);
 
     printf("Test Case 1:\n");
     printf("Input: ");
-    printArray(nums, size);
+    printArray(nums1, size1);
 
-    moveZeroes(nums, size);
+    moveZeroes(nums1, size1);
 
     printf("Output: ");
-    printArray(nums, size);
+    printArray(nums1, size1);
+
+    // Test Case 2 - Edge case with all zeroes
+    int nums2[] = {0, 0, 0};
+    int size2 = sizeof(nums2) / sizeof(nums2[0]);
+
+    printf("\nTest Case 2:\n");
+    printf("Input: ");
+    printArray(nums2, size2);
+
+    moveZeroes(nums2, size2);
+
+    printf("Output: ");
+    printArray(nums2, size2);
 
     return 0;
 }
