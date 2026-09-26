@@ -35,17 +35,32 @@ void printArray(int nums[], int size) {
 }
 
 int main() {
+    // Test Case 1 - Typical case
     int nums1[] = {1, 2, 3, 0, 0, 0};
     int nums2[] = {2, 5, 6};
 
-    int m = 3;
-    int n = 3;
+    int m1 = 3;
+    int n1 = 3;
 
-    merge(nums1, m, nums2, n);
+    merge(nums1, m1, nums2, n1);
 
     printf("Test Case 1:\n");
     printf("nums1: ");
-    printArray(nums1, m + n);
+    printArray(nums1, m1 + n1);
+    printf("\n\n");
+
+    // Test Case 2 - Edge case where nums2 is empty
+    int nums3[] = {1};
+    int nums4[] = {};
+
+    int m2 = 1;
+    int n2 = 0;
+
+    merge(nums3, m2, nums4, n2);
+
+    printf("Test Case 2:\n");
+    printf("nums1: ");
+    printArray(nums3, m2 + n2);
     printf("\n");
 
     return 0;
