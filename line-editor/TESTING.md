@@ -48,3 +48,17 @@ The core operations Insert, Delete, Modify, Display, and Line Count were tested 
 
 The program handles invalid operations with appropriate error messages and releases dynamically allocated memory before exiting.
 
+## Priyadarshini's Verification
+
+The project was independently compiled and executed using GCC on Windows.
+
+The following tests were personally verified:
+- Insert at beginning
+- Insert at end
+- Display document
+- Delete line
+- Delete the only line
+- Empty document handling
+- Invalid delete on an empty document
+
+All tested operations produced the expected results without crashing.
