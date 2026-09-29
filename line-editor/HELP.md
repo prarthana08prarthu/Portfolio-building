@@ -99,3 +99,42 @@ Maximum line length: **199 characters**
 * Modify: O(n) for text allocation/replacement
 * Display: O(n)
 * Line count: O(1)
+## Invalid Input Examples
+
+### Invalid line number
+
+Example:
+D 99
+
+This displays an error because line 99 does not exist.
+
+### Empty document
+
+Example:
+D 1
+
+If the document is empty, the editor displays an error message.
+
+### Unknown command
+
+Example:
+X
+
+The editor displays an error message for an unknown command.
+
+### Insert at beginning
+
+Example:
+I 1 First Line
+I 1 New First Line
+P
+
+The new line is inserted at position 1.
+
+### Insert at end
+
+Example:
+I 3 Last Line
+P
+
+The new line is inserted at the end of the document.

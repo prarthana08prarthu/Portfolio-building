@@ -24,10 +24,12 @@ Simple Line Editor in C
 
 ### Priya
 
-* Reviewed project documentation.
-* Contributed to README and HELP documentation.
-* Reviewed project structure and usage instructions.
-* Reviewed the final project for completeness.
+* Reviewed and updated the README documentation.
+* Prepared and updated the HELP documentation.
+* Reviewed the TESTING documentation.
+* Reviewed the project structure and usage instructions.
+* Contributed to GitHub collaboration and repository documentation.
+* Reviewed the final project documentation for completeness.
 
 ## Collaboration
 

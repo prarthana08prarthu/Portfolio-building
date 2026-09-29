@@ -83,12 +83,13 @@ An array of character pointers is suitable for a small command-line editor becau
 
 ## Project Structure
 
-```text
 line-editor/
 │
 ├── .gitignore
+├── CONTRIBUTIONS.md
 ├── HELP.md
 ├── README.md
+├── TESTING.md
 └── line_editor.c
 ```
 

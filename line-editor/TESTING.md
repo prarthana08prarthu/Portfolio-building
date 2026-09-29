@@ -37,18 +37,14 @@ Simple Line Editor in C
 
 ## Result
 
-The Simple Line Editor was successfully compiled using GCC and tested through the terminal.
 
-The core operations Insert, Delete, Modify, Display, and Line Count were tested successfully. Error handling for invalid operations was also tested.
-
-The program successfully releases dynamically allocated memory before exiting.
 The Simple Line Editor was successfully compiled using GCC and tested through the terminal.
 
 The core operations Insert, Delete, Modify, Display, and Line Count were tested successfully. Edge cases including insertion at the beginning, insertion at the end, deletion of the only line, empty document handling, and deletion of a non-existing line were also tested successfully.
 
 The program handles invalid operations with appropriate error messages and releases dynamically allocated memory before exiting.
 
-## Priyadarshini's Verification
+## Priya's Verification
 
 The project was independently compiled and executed using GCC on Windows.
 
